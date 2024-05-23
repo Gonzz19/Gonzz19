@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=180&height=70&duration=4000&color=8957b2&lines=Hello!+👋;+I'm+Gon!;" />
+	<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=180&height=70&duration=4000&color=#44&lines=Hello!+👋;+I'm+Gon!;" />
 </h1>
 
 <div id="header" align="center">
