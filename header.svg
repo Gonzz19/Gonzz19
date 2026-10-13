@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Gonzalo Malaspina - AI Engineering Student">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1e"/>
+      <stop offset="1" stop-color="#121c38"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="0.5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+      <animate attributeName="x1" values="0;-1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="type1"><rect x="40" y="168" height="30" width="0">
+      <animate attributeName="width" from="0" to="370" begin="0.6s" dur="1.8s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="type2"><rect x="40" y="200" height="30" width="0">
+      <animate attributeName="width" from="0" to="470" begin="2.8s" dur="2s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="card"><rect width="900" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="300" fill="url(#bg)"/>
+    <rect width="900" height="300" fill="url(#dots)"/>
+    <circle cx="730" cy="150" r="190" fill="url(#glow)"/>
+
+    <!-- terminal window bar -->
+    <circle cx="30" cy="26" r="6" fill="#ff5f57"/>
+    <circle cx="50" cy="26" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="26" r="6" fill="#28c840"/>
+    <text x="96" y="31" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#64748b">gon@udesa: ~/portfolio</text>
+    <line x1="0" y1="50" x2="900" y2="50" stroke="#ffffff" stroke-opacity="0.06"/>
+
+    <!-- prompt + name -->
+    <text x="40" y="92" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="17" fill="#28c840">~ $ <tspan fill="#cbd5e1">whoami</tspan></text>
+    <text x="38" y="148" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="-1" fill="url(#name)">Gonzalo Malaspina</text>
+
+    <!-- typed lines -->
+    <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18">
+      <text x="40" y="190" clip-path="url(#type1)" fill="#e2e8f0"><tspan fill="#3b82f6">&gt; </tspan>AI Engineering Student @ UdeSA</text>
+      <text x="40" y="222" clip-path="url(#type2)" fill="#94a3b8"><tspan fill="#a78bfa">&gt; </tspan>Machine Learning · Deep Learning · Data</text>
+    </g>
+    <rect x="40" y="207" width="10" height="20" fill="#5eead4" opacity="0">
+      <set attributeName="opacity" to="1" begin="2.8s"/>
+      <animate attributeName="x" from="40" to="490" begin="2.8s" dur="2s" fill="freeze"/>
+      <animate attributeName="fill-opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="4.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="40" y="268" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#475569">Buenos Aires, AR  ·  python · pytorch · scikit-learn</text>
+
+    <!-- neural network -->
+    <g stroke="#3b82f6" stroke-opacity="0.22" stroke-width="1.2">
+      <path id="e1" d="M610 90 L700 70"/><path d="M610 90 L700 125"/><path id="e3" d="M610 90 L700 180"/><path d="M610 90 L700 235"/>
+      <path d="M610 150 L700 70"/><path id="e2" d="M610 150 L700 125"/><path d="M610 150 L700 180"/><path d="M610 150 L700 235"/>
+      <path d="M610 210 L700 70"/><path d="M610 210 L700 125"/><path d="M610 210 L700 180"/><path id="e4" d="M610 210 L700 235"/>
+      <path id="f1" d="M700 70 L800 120"/><path d="M700 70 L800 180"/>
+      <path d="M700 125 L800 120"/><path id="f2" d="M700 125 L800 180"/>
+      <path id="f3" d="M700 180 L800 120"/><path d="M700 180 L800 180"/>
+      <path d="M700 235 L800 120"/><path id="f4" d="M700 235 L800 180"/>
+    </g>
+
+    <!-- signal pulses -->
+    <g fill="#5eead4">
+      <circle r="3"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="1.6s" begin="0.4s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="1.6s" begin="0.8s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="1.6s" begin="1.2s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle>
+    </g>
+    <g fill="#a78bfa">
+      <circle r="3"><animateMotion dur="1.6s" begin="0.8s" repeatCount="indefinite"><mpath href="#f1"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="1.6s" begin="1.2s" repeatCount="indefinite"><mpath href="#f2"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="1.6s" begin="1.6s" repeatCount="indefinite"><mpath href="#f3"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="1.6s" begin="2s" repeatCount="indefinite"><mpath href="#f4"/></animateMotion></circle>
+    </g>
+
+    <!-- nodes -->
+    <g stroke-width="2" fill="#0a0f1e">
+      <g stroke="#5eead4">
+        <circle cx="610" cy="90" r="10"/><circle cx="610" cy="150" r="10"/><circle cx="610" cy="210" r="10"/>
+      </g>
+      <g stroke="#3b82f6">
+        <circle cx="700" cy="70" r="10"><animate attributeName="fill" values="#0a0f1e;#3b82f6;#0a0f1e" dur="1.6s" begin="1.6s" repeatCount="indefinite"/></circle>
+        <circle cx="700" cy="125" r="10"><animate attributeName="fill" values="#0a0f1e;#3b82f6;#0a0f1e" dur="1.6s" begin="2s" repeatCount="indefinite"/></circle>
+        <circle cx="700" cy="180" r="10"><animate attributeName="fill" values="#0a0f1e;#3b82f6;#0a0f1e" dur="1.6s" begin="2.4s" repeatCount="indefinite"/></circle>
+        <circle cx="700" cy="235" r="10"><animate attributeName="fill" values="#0a0f1e;#3b82f6;#0a0f1e" dur="1.6s" begin="2.8s" repeatCount="indefinite"/></circle>
+      </g>
+      <g stroke="#a78bfa">
+        <circle cx="800" cy="120" r="12"><animate attributeName="fill" values="#0a0f1e;#a78bfa;#0a0f1e" dur="1.6s" begin="2.4s" repeatCount="indefinite"/></circle>
+        <circle cx="800" cy="180" r="12"><animate attributeName="fill" values="#0a0f1e;#a78bfa;#0a0f1e" dur="1.6s" begin="3.2s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+    <!-- recurrent loop (RNN) -->
+    <path d="M800 108 C 840 70, 870 110, 812 120" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
