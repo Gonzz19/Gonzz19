@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=32&center=true&vCenter=true&width=600&height=70&duration=3500&color=2F81F7&lines=Hello!+👋;I'm+Gon!;AI+Engineering+student+%40+UdeSA;Ford+FIC+2026+AI+Edition+winner+🏆" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=32&center=true&vCenter=true&width=600&height=70&duration=3500&color=2F81F7&lines=Hello!+👋;I'm+Gon!;AI+Engineering+student+%40+UdeSA;" />
 </h1>
 
 <div id="header" align="center">
@@ -62,6 +62,5 @@
 ### 📊 GitHub stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Gonzz19&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gonzz19&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
