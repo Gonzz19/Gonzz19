@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Gonzalo Malaspina - AI Engineering Student" />
+  <img src="header.svg" width="100%" alt="Gonzalo Malaspina - AI Engineering Student" />
 </div>
 
 <div id="badges" align="center">
