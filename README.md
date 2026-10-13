@@ -1,9 +1,5 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=32&center=true&vCenter=true&width=600&height=70&duration=3500&color=2F81F7&lines=Hello!+👋;I'm+Gon!;AI+Engineering+student+%40+UdeSA;" />
-</h1>
-
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+<div align="center">
+  <img src="./assets/header.svg" width="100%" alt="Gonzalo Malaspina - AI Engineering Student" />
 </div>
 
 <div id="badges" align="center">
